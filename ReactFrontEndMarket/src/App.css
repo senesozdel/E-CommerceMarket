@@ -1,0 +1,530 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#kalp:hover{
+  cursor: pointer;
+  color: red;
+}
+.comment-form-wrap .section-title .title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+.form-group .form-label {
+  color: #0f0f0f;
+  font-size: 14px;
+}
+.form-group .form-control {
+  border-radius: 0;
+  border: 1px solid #ebebeb;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #0f0f0f;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 3px 16px 1px;
+  height: 45px;
+}
+.form-group .form-control:focus {
+  border-color: #78bc16;
+  background-color: #fff;
+}
+.form-group .form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #888;
+  font-weight: 400;
+  font-size: 14px;
+}
+.form-group .form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #888;
+  font-weight: 400;
+  font-size: 14px;
+}
+.form-group .form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #888;
+  font-weight: 400;
+  font-size: 14px;
+}
+.form-group .form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #888;
+  font-weight: 400;
+  font-size: 14px;
+}
+.form-group textarea.form-control {
+  min-height: 260px;
+  padding-top: 20px;
+}
+@media only screen and (max-width: 991px) {
+  .form-group textarea.form-control {
+    min-height: 120px;
+  }
+}
+.form-group .btn-theme {
+  background-color: #333;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-top: 21px;
+  padding: 10px 20px 7px;
+  text-transform: capitalize;
+}
+.form-group .btn-theme:hover {
+  background-color: #78bc16;
+}
+
+.my-account-area {
+  padding: 88px 0 90px;
+}
+@media only screen and (max-width: 991px) {
+  .my-account-area {
+    padding: 68px 0 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .my-account-area {
+    padding: 58px 0 60px;
+  }
+}
+
+.myaccount-tab-menu {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media only screen and (max-width: 767px) {
+  .myaccount-tab-menu {
+    margin-bottom: 40px;
+  }
+}
+.myaccount-tab-menu.nav-tabs .nav-link {
+  background-color: transparent;
+  border: 1px solid #e5e5e5;
+  border-bottom: none;
+  border-radius: 0;
+  color: #000;
+  font-size: 15px;
+  display: block;
+  padding: 10px 15px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.myaccount-tab-menu.nav-tabs .nav-link:last-child {
+  border-bottom: 1px solid #e5e5e5;
+}
+.myaccount-tab-menu.nav-tabs .nav-link:hover, .myaccount-tab-menu.nav-tabs .nav-link.active {
+  background-color: #78bc16;
+  border-color: #e5e5e5;
+  color: #fff;
+}
+
+.myaccount-content {
+  border: 1px solid #eeeeee;
+  padding: 30px;
+}
+@media only screen and (max-width: 1199px) {
+  .myaccount-content {
+    padding: 20px;
+  }
+}
+.myaccount-content form {
+  margin-top: -20px;
+}
+.myaccount-content .check-btn:hover {
+  color: #0961c3;
+}
+.myaccount-content h3 {
+  font-weight: 400;
+  font-size: 20px;
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+}
+.myaccount-content .welcome a:hover {
+  color: #0961c3;
+}
+.myaccount-content .welcome strong {
+  font-weight: 400;
+  color: #78bc16;
+}
+.myaccount-content p {
+  line-height: 28px;
+  margin-bottom: 2px;
+}
+.myaccount-content fieldset {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.myaccount-content fieldset legend {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.myaccount-content .account-details-form {
+  margin-top: 40px;
+}
+.myaccount-content .account-details-form .single-input-item {
+  margin-bottom: 20px;
+}
+.myaccount-content .account-details-form .single-input-item label {
+  font-size: 14px;
+  text-transform: capitalize;
+  display: block;
+  margin: 0 0 5px;
+}
+.myaccount-content .account-details-form .single-input-item input {
+  border: 1px solid #e8e8e8;
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  padding: 2px 20px;
+  color: #000;
+  font-size: 13px;
+}
+.myaccount-content .account-details-form .single-input-item input:focus {
+  border: 1px solid #78bc16;
+}
+.myaccount-content .account-details-form .single-input-item button {
+  border: none;
+  background-color: #78bc16;
+  font-weight: 600;
+  padding: 9px 25px;
+  color: #fff;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+.myaccount-content .account-details-form .single-input-item button:hover {
+  background-color: #656565;
+}
+
+.myaccount-table {
+  white-space: nowrap;
+  font-size: 14px;
+}
+.myaccount-table table th,
+.myaccount-table .table th {
+  padding: 10px;
+  font-weight: 600;
+  background-color: #f8f8f8;
+  border-color: #ccc;
+  border-bottom: 0;
+  color: #1f2226;
+}
+.myaccount-table table td,
+.myaccount-table .table td {
+  padding: 10px;
+  vertical-align: middle;
+  border-color: #ccc;
+}
+.myaccount-table table td a,
+.myaccount-table .table td a {
+  font-size: 14px;
+  color: #000;
+}
+.myaccount-table table td a i,
+.myaccount-table .table td a i {
+  position: relative;
+  top: 2px;
+}
+
+.saved-message {
+  background-color: #fff;
+  border-top: 3px solid #78bc16;
+  font-size: 14px;
+  padding: 20px 0;
+  color: #333;
+}
+
+.login-register-area {
+  padding: 89px 0 90px;
+}
+@media only screen and (max-width: 991px) {
+  .login-register-area {
+    padding: 69px 0 70px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .login-register-area {
+    position: 58px 0 60px;
+  }
+}
+
+.login-register-title h2 {
+  font-weight: 400;
+  font-size: 36px;
+  margin: 0 0 15px;
+  line-height: 1;
+}
+@media only screen and (max-width: 767px) {
+  .login-register-title h2 {
+    font-size: 28px;
+  }
+}
+.login-register-title p {
+  font-weight: 400;
+  line-height: 1.6;
+  color: #999;
+  width: 85%;
+}
+@media only screen and (max-width: 767px) {
+  .login-register-title p {
+    width: 100%;
+  }
+}
+
+.login-register-pr {
+  padding-right: 100px;
+}
+@media only screen and (max-width: 1199px) {
+  .login-register-pr {
+    padding-right: 0;
+  }
+}
+
+.login-register-pl {
+  padding-left: 100px;
+}
+@media only screen and (max-width: 1199px) {
+  .login-register-pl {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .login-register-pl {
+    margin-top: 40px;
+  }
+}
+
+.login-register-border {
+  border-right: 1px solid #e5e5e5;
+}
+@media only screen and (max-width: 767px) {
+  .login-register-border {
+    border: none;
+  }
+}
+
+.login-register-content.lr-content-padding-mrg {
+  margin: auto;
+  max-width: 20.8333333333%;
+  padding: 76px 0 120px;
+}
+.login-register-content .login-register-style {
+  margin: 33px 0 0;
+}
+.login-register-content .login-register-style p {
+  color: #000;
+  font-size: 15px;
+  line-height: 1.8;
+  margin: 0 0 35px;
+}
+.login-register-content .login-register-style  .login-register-input {
+  position: relative;
+  margin-bottom: 10px;
+}
+.login-register-content .login-register-style  .login-register-input input {
+  color: #495057;
+  width: 100%;
+  height: 45px;
+  background-color: transparent;
+  border: 1px solid #e6e6e6;
+  padding: 4px 15px 0;
+  font-size: 15px;
+}
+.login-register-content .login-register-style  .login-register-input input::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #8d8d8d;
+  font-size: 13px;
+  opacity: 1;
+}
+.login-register-content .login-register-style  .login-register-input input::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #8d8d8d;
+  font-size: 13px;
+  opacity: 1;
+}
+.login-register-content .login-register-style  .login-register-input input:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #8d8d8d;
+  font-size: 13px;
+  opacity: 1;
+}
+.login-register-content .login-register-style  .login-register-input input:-moz-placeholder {
+  /* Firefox 18- */
+  color: #8d8d8d;
+  font-size: 13px;
+  opacity: 1;
+}
+.login-register-content .login-register-style  .login-register-input input:focus {
+  border-color: #78bc16;
+}
+.login-register-content .login-register-style  .login-register-input .forgot {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.login-register-content .login-register-style  .login-register-input .forgot a {
+  color: #4bb1cf;
+  font-size: 15px;
+}
+.login-register-content .login-register-style  .login-register-paragraph {
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  padding: 15px 0;
+  margin: 30px 0 30px;
+}
+.login-register-content .login-register-style  .login-register-paragraph p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.9;
+  margin: 0;
+}
+.login-register-content .login-register-style  .login-register-paragraph p a {
+  font-size: 14px;
+  color: #78bc16;
+}
+.login-register-content .login-register-style  .login-register-paragraph p a:hover {
+  color: #0961c3;
+}
+.login-register-content .login-register-style  .remember-me-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 19px 0 0px;
+}
+.login-register-content .login-register-style  .remember-me-btn input {
+  cursor: pointer;
+  width: auto;
+  height: auto;
+  margin-right: 10px;
+  margin-top: -5px;
+}
+.login-register-content .login-register-style  .remember-me-btn label {
+  color: #000;
+  font-size: 15px;
+}
+.login-register-content .login-register-style  .btn-style-3 {
+  margin: 21px 0 0px;
+}
+.login-register-content .login-register-style  .btn-style-3 button {
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #78bc16;
+  border: none;
+  line-height: 1;
+  width: 100%;
+  text-align: center;
+  padding: 19px 10px 15px;
+  text-transform: uppercase;
+}
+.login-register-content .login-register-style  .btn-style-3 button:hover {
+  background-color: #656565;
+}
+.login-register-content .login-register-style .register-benefits {
+  background-color: #f3f3f3;
+  padding: 40px 30px;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 991px) {
+  .login-register-content .login-register-style .register-benefits {
+    padding: 30px 20px;
+  }
+}
+.login-register-content .login-register-style .register-benefits h3 {
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 0 0 20px;
+}
+.login-register-content .login-register-style .register-benefits p {
+  line-height: 1.6;
+  font-size: 14px;
+  color: #666;
+  margin: 0 0 28px;
+}
+.login-register-content .login-register-style .register-benefits ul {
+  margin: 0;
+}
+.login-register-content .login-register-style .register-benefits ul li {
+  font-size: 18px;
+  color: #000;
+  margin: 0 0 16px;
+}
+@media only screen and (max-width: 1199px) {
+  .login-register-content .login-register-style .register-benefits ul li {
+    font-size: 15px;
+  }
+}
+.login-register-content .login-register-style .register-benefits ul li:last-child {
+  margin: 0 0 0;
+}
+.login-register-content .login-register-style .register-benefits ul li i {
+  font-size: 17px;
+  color: #0961c3;
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+@media only screen and (max-width: 1199px) {
+  .login-register-content .login-register-style .register-benefits ul li i {
+    margin-right: 0;
+  }
+}
